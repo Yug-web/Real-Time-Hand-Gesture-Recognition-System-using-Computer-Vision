@@ -1,0 +1,23 @@
+# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# User collected datasets (optional, but let's keep dataset/ folder tracked via .gitkeep)
+# If user wants to keep their custom trained datasets local, they can ignore .npz files:
+# dataset/*.npz
+
+# VS Code / IDE files
+.vscode/
+.idea/
+*.log
